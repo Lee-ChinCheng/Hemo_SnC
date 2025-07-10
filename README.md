@@ -3,14 +3,14 @@ Stands for "Hemolysis Prediction of Therapeutic Peptides Based on Sequence and C
 
 Poster Topic: Early Screening of Hemolytic Risk in Functional Peptides via Ensemble AI Using Sequence and Concentration Features
 
----
-
 ### Main Goal 
 Therapeutic Peptides or Antimicrobial peptides (AMPs) with high hemolysis risk are unsuitable as drugs, but experimental validation is costly. Our model enables early in silico screening to filter out hemolytic candidates.
 
 <p align="center">
-  <img src="./images/main_concept.png" alt="main_concept" width="860" height="358"/>
+  <img src="./images/main_concept.png" alt="main_concept" width="688" height="286"/>
 </p>
+
+Our web-based AI predictor is accessible at https://axp.iis.sinica.edu.tw/hemolysis/
 ---
 
 ### Model Architecture
@@ -32,7 +32,7 @@ Our TestSet2 is confidential and is not currently available on GitHub
 
 TestSet2 comprises 18 peptides designed at 7 different concentrations and experimentally validated using sheep red blood cells.
 <p align="center">
-  <img src="./images/test2_flowchart.PNG" alt="sheepRBC" width="1110" height="300"/>
+  <img src="./images/test2_flowchart.PNG" alt="test2_flowchart" width="1110" height="300"/>
 </p>
 <p align="center">
   <img src="./images/sheepRBC.PNG" alt="sheepRBC" width="1110" height="483"/>
