@@ -11,6 +11,7 @@ Therapeutic Peptides or Antimicrobial peptides (AMPs) with high hemolysis risk a
 </p>
 
 Our web-based AI predictor is accessible at https://axp.iis.sinica.edu.tw/hemolysis/
+
 ---
 
 ### Model Architecture
@@ -29,13 +30,19 @@ Our web-based AI predictor is accessible at https://axp.iis.sinica.edu.tw/hemoly
 We have 2 test sets, TestSet1 (10% dataset) and TestSet2 (our wet-lab validated data)<br>
 Our TestSet2 is confidential and is not currently available on GitHub
 
+|           | Accuracy | Specificity | Precision | Recall | F1-score | MCC | auROC | auPRC |
+|-----------|----------|-------------|-----------|--------|----------|-----|--------|--------|
+| TestSet1  | 0.78     | 0.77        | 0.77      | 0.79   | 0.78     | 0.56| 0.86   | 0.85   |
+| TestSet2  | 0.88     | 0.98        | 0.88      | 0.52   | 0.65     | 0.61| 0.89   | 0.69   |
+
+
 
 TestSet2 comprises 18 peptides designed at 7 different concentrations and experimentally validated using sheep red blood cells.
 <p align="center">
-  <img src="./images/test2_flowchart.PNG" alt="test2_flowchart" width="1110" height="300"/>
+  <img src="./images/test2_flowchart.PNG" alt="test2_flowchart" width="900" height="243"/>
 </p>
 <p align="center">
-  <img src="./images/sheepRBC.PNG" alt="sheepRBC" width="1110" height="483"/>
+  <img src="./images/sheepRBC.PNG" alt="sheepRBC" width="900" height="390"/>
 </p>
 
 
